@@ -1,0 +1,13 @@
+{
+  "name": "tree-sitter-aethel",
+  "version": "0.1.0",
+  "description": "Tree-sitter grammar and queries for the Aethel programming language",
+  "main": "grammar.js",
+  "license": "MIT",
+  "repository": "https://github.com/AleryBerry/tree-sitter-aethel",
+  "files": [
+    "grammar.js",
+    "src",
+    "queries"
+  ]
+}

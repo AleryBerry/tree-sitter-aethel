@@ -1,0 +1,39 @@
+{
+  "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/config.schema.json",
+  "grammars": [
+    {
+      "name": "aethel",
+      "camelcase": "Aethel",
+      "Title": "Aethel",
+      "scope": "source.aethel",
+      "file-types": [
+        "aethel"
+      ],
+      "highlights": "queries/highlights.scm",
+      "injections": "queries/injections.scm",
+      "locals": "queries/locals.scm"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "Tree-sitter grammar for the Aethel programming language (adapted from tree-sitter-gleam)",
+    "authors": [
+      {
+        "name": "Aethel Contributors"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/AleryBerry/tree-sitter-aethel"
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": false,
+    "node": false,
+    "python": false,
+    "rust": false,
+    "swift": false,
+    "zig": false
+  }
+}
